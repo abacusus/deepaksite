@@ -377,7 +377,7 @@ const Contact = () => (
             title="Map"
             className="mt-6 w-full h-64 rounded-xl"
             src="https://www.openstreetmap.org/export/embed.html?bbox=76.92212820053102%2C28.43622315500142%2C76.93661212921144%2C28.442996821072406&amp;layer=mapnik&amp;marker=28.439610042250358%2C76.92937016487122"
-          />
+          ></iframe>
         </div>
       </div>
     </div>
