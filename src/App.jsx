@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, {  useState } from "react";
 import { motion } from "framer-motion";
 import "./LogoCarousel.css";
 
@@ -78,22 +78,7 @@ const Section = ({ id, className = "", children }) => (
   <section id={id} className={`py-16 md:py-24 ${className}`}>{children}</section>
 );
 
-function useMarqueePauseOnHover() {
-  const ref = useRef(null);
-  useEffect(() => {
-    const el = ref.current;
-    if (!el) return;
-    const handleEnter = () => el.style.animationPlayState = "paused";
-    const handleLeave = () => el.style.animationPlayState = "running";
-    el.addEventListener("mouseenter", handleEnter);
-    el.addEventListener("mouseleave", handleLeave);
-    return () => {
-      el.removeEventListener("mouseenter", handleEnter);
-      el.removeEventListener("mouseleave", handleLeave);
-    };
-  }, []);
-  return ref;
-}
+
 
 const Nav = () => {
   const [open, setOpen] = useState(false);
@@ -170,7 +155,7 @@ const Hero = () => (
 
 
 const LogoMarquee = () => {
-  const ref = useMarqueePauseOnHover();
+
 
   return (
      <div className="logo-carousel">
@@ -348,7 +333,7 @@ const Contact = () => (
           <h2 className="text-3xl md:text-4xl font-bold">Contact us</h2>
           <p className="text-gray-600 mt-2">Tell us about your requirement and we'll get back within one business day.</p>
           <div className="mt-6 rounded-2xl border border-gray-200 p-6 bg-white">
-            <form onSubmit={(e)=>{e.preventDefault(); alert("Thanks! We\'ll be in touch.");}} className="grid gap-4">
+            <form onSubmit={(e)=>{e.preventDefault(); alert("Thanks! We'll be in touch.");}} className="grid gap-4">
               <input required placeholder="Name" className="border border-gray-300 rounded-xl px-4 py-2"/>
               <input required type="email" placeholder="Email" className="border border-gray-300 rounded-xl px-4 py-2"/>
               <input placeholder="Phone" className="border border-gray-300 rounded-xl px-4 py-2"/>
