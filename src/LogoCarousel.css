@@ -1,0 +1,48 @@
+.logo-carousel {
+  overflow: hidden;
+  width: 100%;
+  background: #f9fafb;
+  padding: 1rem 0;
+}
+
+.logo-track {
+  display: flex;
+  animation: scroll 25s linear infinite;
+}
+
+.logo-card {
+  flex: 0 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 176px;
+  height: 96px;
+  margin: 0 1rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.logo-card img {
+  max-height: 48px;
+  max-width: 144px;
+  object-fit: contain;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes reverse-scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
