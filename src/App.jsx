@@ -2,9 +2,7 @@ import React, {  useState } from "react";
 import { motion } from "framer-motion";
 import "./LogoCarousel.css";
 
-// Single-file React landing page inspired by egkantawalla.com
-// TailwindCSS assumed (via CDN or build). No external UI kits required.
-// All image links are valid (Unsplash / Wikimedia / brand press kits where allowed).
+
 
 const products = [
   {
@@ -52,7 +50,7 @@ const products = [
 ];
 
 const clientLogos = [
-  // Using Wikimedia/brand-hosted SVG/PNGs where permissible
+
   {
     name: "Tata",
     src: "https://www.svgrepo.com/show/330695/infosys.svg",
