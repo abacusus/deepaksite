@@ -296,7 +296,7 @@ const About = () => (
     <div className="mx-auto max-w-7xl px-4 grid md:grid-cols-2 gap-10 items-center">
       <div>
         <h2 className="text-3xl md:text-4xl font-bold">Over a century of trust</h2>
-        <p className="text-gray-600 mt-3">Founded in 1918, our EAGLE brand has evolved from a small retail outlet to a global manufacturer with exports to 40+ countries. We pair robust hardware with modern software to deliver end‑to‑end weighing solutions.</p>
+        <p className="text-gray-600 mt-3">Founded in 1918, our  brand has evolved from a small retail outlet to a global manufacturer with exports to 40+ countries. We pair robust hardware with modern software to deliver end‑to‑end weighing solutions.</p>
         <div className="mt-6 grid grid-cols-2 gap-4">
           {stats.map(s => (
             <div key={s.v} className="rounded-2xl border border-gray-200 p-4">
@@ -373,7 +373,7 @@ const Footer = () => (
       <div>
         <div className="flex items-center gap-2">
           <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Scale_Simple_Icon.svg" alt="Eagle" className="h-6 w-6"/>
-          <span className="font-semibold">EAGLE Weighing</span>
+          <span className="font-semibold">Deepak  Weighing</span>
         </div>
         <p className="text-gray-600 mt-3">Certified quality • ISO 9001 • ISO/IEC 17025 Calibration</p>
       </div>
@@ -398,16 +398,16 @@ const Footer = () => (
       <div>
         <div className="font-semibold">Follow</div>
         <div className="flex gap-3 mt-3">
-          <a href="https://www.instagram.com/eagle_weighing_scales/" target="_blank" rel="noreferrer" className="underline">Instagram</a>
+          <a href="https://www.instagram.com/deepak/" target="_blank" rel="noreferrer" className="underline">Instagram</a>
           <a href="https://play.google.com/store/apps/details?id=com.deepak." target="_blank" rel="noreferrer" className="underline">App</a>
         </div>
       </div>
     </div>
-    <div className="text-center text-xs text-gray-500 pb-8">© {new Date().getFullYear()} EAGLE Weighing (Demo)</div>
+    <div className="text-center text-xs text-gray-500 pb-8">© {new Date().getFullYear()} Deepak Weighing (Demo)</div>
   </footer>
 );
 
-export default function EGKInspiredSite() {
+export default function Site() {
   return (
     <div className="font-[ui-sans-serif] text-gray-900">
       <Nav/>
