@@ -122,7 +122,7 @@ const Hero = () => (
           <br className="hidden md:block"/> Retail & Laboratories
         </h1>
         <p className="mt-5 text-gray-600 max-w-prose">
-          A legacy brand delivering trusted <strong>EAGLE</strong> weighing solutions since 1918 —
+          A legacy brand delivering trusted <strong>Deepak Electronics</strong> weighing solutions since 1918 —
           from micro-gram lab balances to heavy-duty truck scales with IoT indicators and nationwide service.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
@@ -399,7 +399,7 @@ const Footer = () => (
         <div className="font-semibold">Follow</div>
         <div className="flex gap-3 mt-3">
           <a href="https://www.instagram.com/eagle_weighing_scales/" target="_blank" rel="noreferrer" className="underline">Instagram</a>
-          <a href="https://play.google.com/store/apps/details?id=com.egkantawalla.eagle_weighing_scale" target="_blank" rel="noreferrer" className="underline">App</a>
+          <a href="https://play.google.com/store/apps/details?id=com.deepak." target="_blank" rel="noreferrer" className="underline">App</a>
         </div>
       </div>
     </div>
